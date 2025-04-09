@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "committee.nova.mods.mc_lark.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "feishumsg.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
