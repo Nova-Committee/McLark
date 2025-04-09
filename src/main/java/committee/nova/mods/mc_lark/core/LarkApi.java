@@ -38,7 +38,6 @@ public class LarkApi {
      * @return 是否发送成功
      */
     public Boolean sendMsg(String msg) {
-        String warnStr = "业务出错啦！报警消息如下： ["+ msg + "]";
         // 构建发送信息的Json结构体
         String content = MessageText.newBuilder()
                 //.atAll() // @ 群组中所有人，可以改为 @ 某个人的 openId
